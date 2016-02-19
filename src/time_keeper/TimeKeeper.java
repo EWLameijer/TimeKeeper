@@ -157,8 +157,16 @@ public class TimeKeeper extends JFrame implements KeyListener {
 			
 		} catch (Exception e) {}
 		
+		try (BufferedFIleReader configurationFileBReader = new BufferedReader (
+		    new FileReader(configurationFileName))) {
+		  
+		} catch (Exception e) {
+		  
+		}
 		
-		m_gapLabel = new JLabel("Gat");
+		
+		m_gapLabel = new JLabel("Gat"); // is special, will always be needed
+		  // and has no explicit initializers
 		m_gapField = new CounterField();
 		m_debtLabel = new JLabel("Opruimen");
 		m_debtField = new CounterField();

@@ -1,0 +1,15 @@
+Onderhoud
+	ond
+Becommentarieren
+	b
+Checken
+	ch
+Denken
+	d
+Onderzoek
+	lit
+	oz
+Coderen
+	co
+Debuggen
+	b
