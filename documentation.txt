@@ -1,0 +1,31 @@
+Reading the text for the categories
+
+The configuration file obeys the following rules:
+
+1) Lines starting with # indicate a comment, it will be skipped by the configuration parser
+
+2) The first non-#-starting line should be the label to use for unrecorded time, or 'gaps'. Like Gap or NoAdmin
+
+3) Each line starting with a regular character (so no # or whitespace) will add another label/box to the window.
+
+4) A line starting with a whitespace (like space or tab) will be interpreted as indicating a (case-insensitive) synonym for a time category
+
+5) The first fully blank line stops the script.
+
+Example:
+
+# home config file, Eric-Wubbo Lameijer, 20-02-2016
+Gap
+	g
+Maintenance
+	m
+SciTal
+	wt
+Learning
+	l
+Ideas
+	i
+	idea
+
+
+
